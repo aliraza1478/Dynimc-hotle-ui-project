@@ -1,0 +1,31 @@
+ [
+    {
+        "image": "https://example.com/image1.jpg",
+        "title": "Product 1",
+        "bookmark": 4.76,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 29.99
+    },
+    {
+        "image": "https://example.com/image2.jpg",
+        "title": "Product 2",
+        "bookmark": 5.0,
+        "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "price": 70.99
+    },
+    {
+        "image": "https://example.com/image3.jpg",
+        "title": "Product 3",
+        "bookmark": 4.30,
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "price": 40.99
+    },
+    {
+        "image": "https://example.com/image4.jpg",
+        "title": "Product 4",
+        "bookmark": 4.50,
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+        "price": 70.00
+    }
+]
+

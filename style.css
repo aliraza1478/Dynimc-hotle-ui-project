@@ -1,0 +1,509 @@
+*{
+  
+    margin-top:0px;
+    padding:0px;
+
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top:3px;  
+     
+    
+    display: flex;
+    
+    
+    
+}
+
+.navcont{
+    height: auto;
+    width: auto;
+    background-color: white;
+    display: flex;
+    box-shadow: 0 0 6px rgba(0, 5, 0, 0.2);
+
+    
+    
+    
+   
+    
+}
+.logocont{
+    height: 8px;
+    width: fit-content;
+    margin-left: 5px;
+    margin-bottom: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    
+
+}
+
+.logo{
+
+    height: 4%;
+    width: 8%;
+    margin-left: 20px;
+    margin-top:-20px;
+    padding-top: 10px;
+    display: flex;
+    padding-top: -20px;
+    
+ 
+    
+    
+}
+
+
+ 
+
+.searchcontiner {
+    border-radius: 30px;
+    height: 38px;
+    width: 290px;
+    border-color: cornflowerblue;
+    border-color: green;
+    margin-top: 15px;
+    display: flex;
+    margin-left: 220px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+    background-color: white;
+    border: none; 
+    font-size: 12px;
+}
+
+
+.innersearch{
+    height: 25px;
+    width: 25px;
+    background-color:#e31c5f ;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 10px;
+    size: 10px;
+    
+}
+
+i{
+  
+  color: white;
+  height: 2px;
+  margin-top: 6px;
+  size: 5px;
+  margin-left: 5px;
+ 
+}
+  
+  
+
+
+i:hover{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    color: darkgrey;
+
+}
+
+.righticons{
+    background-color: whitesmoke;
+    height: auto;
+    width: auto;
+    display: flex;
+
+}
+
+.home{
+    background-color: white;
+    height: 30px;
+    width: 150px;
+    border: none;
+    margin-left: 80px;
+    margin-top: 18px;
+    font-size: 12px;
+    padding: 5px;
+
+    
+}
+
+
+.home:hover{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    
+    
+}
+.menucont{
+    height: 40px;
+    width: 70px;
+    
+    border-radius: 30px;
+    color: #333;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    margin-left: 40px;
+    margin-top: -28px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menucont:hover{
+    border-radius: 30px;
+    box-shadow: 0 0 6px rgba(0, 5, 0, 0.2);
+    
+
+}    
+    
+
+.profilecont{
+   height:25px;
+   width: 25px;
+    background-color: gray;
+    border-radius: 40px;
+    display: flex;
+    margin-top: 30px;
+    margin-left:38px;
+    margin-top: -22px;
+       
+}
+.links{
+    height: 70px;
+    width: 1100px;
+    background-color: white;
+    margin-right: 1600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: -30px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top:100px;
+    font-size: 8px;
+    padding: 5px;
+
+}
+ 
+a{
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin-right: 40px;
+    font-size: 14px;
+}
+
+
+a:hover{
+    display: inline-block;
+    position: relative;
+    color: #404040;	
+   
+}
+
+a:hover::after{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: 
+lightgray;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  margin-top: 10px;
+ 
+   
+   
+}
+
+a:hover:hover:after{
+    transform: scaleX(1);
+  transform-origin: bottom left;
+
+}
+
+.Filterbtn{
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: white;
+    height: 40px;
+    width: 80px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin-top: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 110px;
+}
+.Tooglecont{
+    height: 40px;
+    width: 190px;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-left: -90px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.tooglebtn{
+     
+        height: 30px;
+        width: 50px;
+        background-color: gray;
+        border-radius: 30px;
+        margin-left: 10px;
+        display: flex;
+}
+
+.pt{
+    height: auto;
+    width: auto;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    size: 70px;
+    
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+    
+    
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+      
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+    
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+    
+    
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+    size: 10px;
+    
+  }
+
+  
+  .checkbox {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  
+  input[type="checkbox"] {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: grey;
+    outline: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: inset 0 0 5px rgb(0 0 0 / 50%);
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    transform: translateX(100%);
+    background: #fff;
+  }
+  
+  input[type="checkbox"]:checked {
+    background: grey;
+  }
+  
+
+  
+  .slide-wrapper {
+  
+    margin: 6em;
+    margin-left: -50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    direction: row;
+  
+    
+    
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 23%;
+    padding: -5px;
+    margin-top: 50px;
+    margin-left: 15px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+.mapbtn{
+  height: 40px;
+  width: 110px;
+  background-color:#282828	;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 470px;
+  margin-top: -115px;
+  position: fixed;
+  
+}
+
+
+
+
+
+.product-card {
+    padding: 14px;
+    margin: 10px;
+    height: 250px;
+    width: 230px;
+    
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+.product-card img {
+    width: 120%; /* Set the width to 100% to make sure the image takes the full width of its container */
+    height: 110%; /* Set the height to 100% to maintain the aspect ratio */
+    max-height: 230px; /* Set a maximum height to avoid stretching images too much */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    border-radius: 8px;
+}
+
+h2{
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+p{
+    font-size: 14px;
+    color: gray;
+}
+
+
+.price{
+  color: black;
+  margin-bottom: -20px;
+}
+
+.bookmark{
+  color: black;
+  margin-top: 10px;
+}
+
+.product-card1 {
+  padding: 14px;
+  margin: 10px;
+  height: 250px;
+  width: 230px;
+  display: inline-block;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  background-color: lightcyan;
+  object-fit: cover;
+  /* object-fit: cover; (This property is not applicable to div elements) */
+}
